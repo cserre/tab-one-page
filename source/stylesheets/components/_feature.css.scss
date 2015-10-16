@@ -1,20 +1,20 @@
-.fa-green {
-  color: #CEEDB1;
+.fa-dark-red {
+  color: $dark-red;
 }
-.fa-blue {
-  color: #1DADEA;
+.fa-dark-yellow {
+  color: $dark-yellow;
 }
-.fa-purple {
-  color: #6642EC;
+.fa-yellow {
+  color: $yellow;
 }
 .fa-red {
-  color: #DB5658;
+  color: $red;
 }
 .padded-container {
   padding: 40px;
 }
 .bg-black {
-  background-color: #333333;
+  background-color: $gray-darker;
   color: white;
   padding: 30px;
   a {

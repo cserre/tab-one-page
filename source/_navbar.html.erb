@@ -2,7 +2,7 @@
   <div class="container navbar-wagon-container">
 
     <% link_to "/" do %>
-      <%= image_tag "lewagon.png", class: "navbar-wagon-logo" %>
+      <%= image_tag "burger.png", class: "navbar-wagon-logo" %>
     <% end %>
 
     <form action="" class="navbar-wagon-search">
@@ -13,22 +13,22 @@
     </form>
 
     <div class="navbar-wagon-item">
-      <a href="" class="navbar-wagon-button btn btn-default">Post stuff</a>
+      <%= link_to "Post stuff", "", class: "navbar-wagon-button btn btn-default" %>
     </div>
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+    <% link_to "Contact", "", class: "navbar-wagon-item navbar-wagon-link" %>
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">
+    <% link_to "", class: "navbar-wagon-item navbar-wagon-link" do %>
       <div class="icon-badge-container">
         <i class="fa fa-envelope-o"></i>
-        <div class="icon-badge icon-badge-blue">3</div>
+        <div class="icon-badge icon-badge-red">3</div>
       </div>
-    </a>
+    <% end %>
 
     <div class="navbar-wagon-item">
       <div class="dropdown">
 
-        <img src="https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg" alt="" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <%= image_tag "https://avatars.githubusercontent.com/u/12142461?v=3", class: "avatar dropdown-toggle", id:"navbar-wagon-menu", "data-toggle": "dropdown", "aria-haspopup": "true", "aria-expanded": "true" %>
 
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu" aria-labelledby="navbar-wagon-menu">
           <li><a href="#">Profile</a></li>
