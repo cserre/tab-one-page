@@ -1,4 +1,24 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Super burger
+  votes: 230
+  image: 'portfolio1.jpg'
+- name: Mega super burger
+  votes: 130
+  image: 'portfolio2.jpg'
+- name: So goo burger
+  votes: 280
+  image: 'portfolio3.jpg'
+- name: My favorite burger
+  votes: 120
+  image: 'portfolio4.jpg'
+- name: A little good burger
+  votes: 50
+  image: 'portfolio5.jpg'
+- name: Humm super burger
+  votes: 90
+  image: 'portfolio6.jpg'
+- name: A big fat super burger
+  votes: 190
+  image: 'portfolio7.jpg'
+- name: OK burger
+  votes: 29
+  image: 'portfolio8.jpg'
