@@ -1,109 +1,32 @@
----
-title: Le Wagon Middleman boilerplate
----
-
-<!-- Banner -->
-<div class="banner text-center">
-  <div class="banner-shadow"></div>
-  <div class="banner-content">
-    <h1>My famous burgers</h1>
-    <p>Find the best burgers you have ever eaten</p>
-    <%= link_to "GET IT", "", class: "btn btn-warning" %>
-  </div>
-</div>
-
-<!-- Cards -->
-<div class="padded-container">
-  <div class="container">
+<div class="gradient flex-center-center">
+  <div class="title text-center">
+    <h1>Take a Break fait une pause!</h1>
+    <h3>Merci de nous avoir soutenus dans ce projet et continuez à nous suivre dans nos nouveaux projets</h3>
     <div class="row">
-      <div class="col-sm-3">
-        <h3><i class="fa fa-comment fa-dark-red"></i> Discuss best tools </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
-      </div>
-      <div class="col-sm-3">
-        <h3><i class="fa fa-mobile fa-red"></i> Always in sync </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
-      </div>
-      <div class="col-sm-3">
-        <h3><i class="fa fa-search fa-dark-yellow"></i> Powerful search</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
-      </div>
-      <div class="col-sm-3">
-        <h3><i class="fa fa-heart-o fa-yellow"></i> Share the love </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="padded-container">
-  <h2 class="text-center">Most Popular</h2>
-  <div class="container">
-    <div class="row">
-
-      <div class="col-sm-4">
-        <div class="card">
-          <span class="card-bg photo1"></span>
-          <span class="card-shadow"></span>
-          <span class="card-description">Street</span>
-          <span class="card-text">
-            <h2>Burger City</h2>
-            <p>Very cool stuff, useful and smart</p>
-          </span>
-          <span class="card-user">
-            <img src='http://placehold.it/40x40' class="avatar avatar-bordered"/>
-          </span>
-          <%= link_to "", "", class: "card-link" %>
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
+        <div class="white-box flex-center-center">
+          <div class="text-center">
+            <% link_to "www.mycocoon.io" do %>
+              <%= image_tag "mycocoon.png", class: "logo" %>
+            <% end %>
+            <h3><a href="www.mycocoon.io" id="mycocoon">My Cocoon</a></h3>
+            <p>Retrouvez toutes vos annonces immobilières en un seul endroit!</p>
+          </div>
         </div>
       </div>
-
-      <div class="col-sm-4">
-        <div class="card">
-          <span class="card-bg photo2"></span>
-          <span class="card-shadow"></span>
-          <span class="card-description">Gastro</span>
-          <span class="card-text">
-            <h2>Café Burger</h2>
-            <p>Very cool stuff, useful and smart</p>
-          </span>
-          <span class="card-user">
-            <img src='http://placehold.it/40x40' class="avatar avatar-bordered"/>
-          </span>
-          <%= link_to "", "", class: "card-link" %>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="card">
-
-          <span class="card-bg photo3"></span>
-          <span class="card-shadow"></span>
-          <span class="card-description">Street</span>
-          <span class="card-text">
-            <h2>Pizza burger</h2>
-            <p>Very cool stuff, useful and smart</p>
-          </span>
-          <span class="card-user">
-            <img src='http://placehold.it/40x40' class="avatar avatar-bordered"/>
-          </span>
-          <%= link_to "", "", class: "card-link" %>
+      <div class="col-xs-12 col-sm-5 col-md-4">
+        <div class="white-box flex-center-center">
+          <div class="text-center">
+            <% link_to "www.echrili.tn" do %>
+              <%= image_tag "echrili.png", class: "logo" %>
+              <h3><a href="www.echrili.tn" id="echrili">Echrili</a></h3>
+            <% end %>
+            <p>Accédez aux marketplaces françaises depuis la Tunisie</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- Newsletter -->
-<div class="container padded-container text-center">
-  <h2>Get news from us</h2>
-  <p>Leave us your mail and get stylus news</p>
-  <div class="row">
-    <div class="form-inline">
-      <div class="form-group">
-        <input type="email" class="form-control" placeholder="bob@gmail.com">
-        <input type="submit" class="btn btn-primary" value="Subscribe">
-      </div>
-    </div>
+
   </div>
 </div>
