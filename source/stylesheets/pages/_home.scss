@@ -38,7 +38,8 @@
   }
 }
 .logo {
-  width: 50%;
+  //width: 50%;
+  height: 40px;
 }
 #mycocoon {
   text-decoration: none;
@@ -54,5 +55,13 @@
 
   &:hover {
     color: #037BB7;
+  }
+}
+#ludo {
+  text-decoration: none;
+  color: #F7C873;
+
+  &:hover {
+    color: #BD8E37;
   }
 }
